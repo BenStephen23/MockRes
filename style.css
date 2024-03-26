@@ -22,5 +22,33 @@ header {
     color: white;
 }
 
+.hero {
+    background-image: url(mockimg/pexels-life-of-pix-67468.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: cover;
+    /* background-repeat: no-repeat; */
 
+    /* @media (max-width: 992px) {
+        height: 700px;
+        background-size: contain;
+    } */
     
+}
+
+.hero h4 {
+    color: black;
+    font-size: 40px;
+}
+
+.hero button {
+    font-size: 25px;
+    color: white;
+    background-color: black;
+
+}
+
+.hero button:hover {
+    background-color: white;
+    color: #17271A;
+}
