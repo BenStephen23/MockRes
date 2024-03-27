@@ -45,6 +45,7 @@ header {
     font-size: 25px;
     color: white;
     background-color: black;
+    
 
 }
 
@@ -55,4 +56,12 @@ header {
 
 .mymenu img{
     width: -webkit-fill-available;
+}
+
+.mybtn {
+    color: black !important;
+}
+.mybtn:hover {
+     background-color: black !important;
+    color: white !important; 
 }
